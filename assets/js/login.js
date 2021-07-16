@@ -79,6 +79,7 @@ $(function () {
                     }, function () {
                         //登陆获取的token验证存入本地，之后要用
                         localStorage.setItem('token', res.token)
+                        console.log(res.token);
                         location.href = '/index.html'
                     });
                     // console.log(res.token);
