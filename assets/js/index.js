@@ -1,6 +1,5 @@
 $(function () {
     getLoginData()
-
     //退出功能
     $("#loginOut").on("click", function () {
         var layer = layui.layer
@@ -11,7 +10,6 @@ $(function () {
         });
     })
 })
-
 //定义Ajax登录请求
 function getLoginData() {
     $.ajax({

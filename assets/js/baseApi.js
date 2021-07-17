@@ -11,7 +11,7 @@ $(function () {
                 localStorage.removeItem('token')
                 location.href = "/login.html"
             }
-            console.log(res);
+            // console.log(res);
         }
     })
 })
